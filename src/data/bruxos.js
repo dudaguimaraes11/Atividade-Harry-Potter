@@ -99,7 +99,7 @@ export default [
         ano: 9,
         varinha: "Abeto e fibra de coração de dragão, 24cm",
         mascote: "Gato",
-        patrono: "Gato",
+        patrono: "Gatoo",
         especialidade: "Transfiguração",
     }
 ];
