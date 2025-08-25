@@ -116,5 +116,5 @@ app.get("/dados/pocoes/:id", (req, res) => {
 });
 
 app.listen(serverPort, () => {
-    console.log(`🧙‍♂️ API dos Bruxos está no ar na porta 3000, http://localhost:${serverPort}`);
+    console.log(`🪄 API dos Bruxos está no ar na porta 3000, http://localhost:${serverPort}`);
 });
