@@ -29,7 +29,7 @@ app.get("/dados/bruxos/:id", (req, res) => {
     res.status(200).json(bruxo);
   } else {
     res.status(404).json({
-      mensagem: "Personagem não encontrado!"
+      mensagem: "Bruxo não encontrado!"
     });
   }
 });
@@ -50,7 +50,7 @@ app.get("/dados/casas/:id", (req, res) => {
     res.status(200).json(casa);
   } else {
     res.status(404).json({
-      mensagem: "Personagem não encontrado!"
+      mensagem: "Casa não encontrada!"
     });
   }
 });
@@ -70,7 +70,7 @@ app.get("/dados/varinhas/:id", (req, res) => {
     res.status(200).json(varinha);
   } else {
     res.status(404).json({
-      mensagem: "Personagem não encontrado!"
+      mensagem: "Varinha não encontrada!"
     });
   }
 });
@@ -90,7 +90,7 @@ app.get("/dados/animais/:id", (req, res) => {
     res.status(200).json(animal);
   } else {
     res.status(404).json({
-      mensagem: "Personagem não encontrado!"
+      mensagem: "Animal não encontrado!"
     });
   }
 });
@@ -110,7 +110,7 @@ app.get("/dados/pocoes/:id", (req, res) => {
     res.status(200).json(pocao);
   } else {
     res.status(404).json({
-      mensagem: "Personagem não encontrado!"
+      mensagem: "Poção não encontrada!"
     });
   }
 });
